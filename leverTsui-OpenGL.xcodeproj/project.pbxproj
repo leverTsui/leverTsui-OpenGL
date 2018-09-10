@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070238B163F38C61E0A96CE3 /* libPods-leverTsui-OpenGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D016C8BD30BA7E4D993B232 /* libPods-leverTsui-OpenGL.a */; };
 		C62318032146137600700306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C62318022146137600700306 /* AppDelegate.m */; };
 		C62318092146137600700306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62318072146137600700306 /* Main.storyboard */; };
 		C623180B2146137800700306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C623180A2146137800700306 /* Assets.xcassets */; };
@@ -16,6 +17,10 @@
 		C62318262146137800700306 /* leverTsui_OpenGLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C62318252146137800700306 /* leverTsui_OpenGLUITests.m */; };
 		C623183B2146154100700306 /* LTExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C623183A2146154100700306 /* LTExampleViewController.m */; };
 		C623183E2146156700700306 /* LTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C623183D2146156700700306 /* LTExample.m */; };
+		C62318432146214300700306 /* LTDrawImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62318422146214300700306 /* LTDrawImageViewController.m */; };
+		C62318472146544A00700306 /* UIViewController+LTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C62318462146544A00700306 /* UIViewController+LTExample.m */; };
+		C623184B2146560E00700306 /* LTDramImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C623184A2146560E00700306 /* LTDramImageViewController.m */; };
+		C623184F21465CE600700306 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C623184E21465CE600700306 /* 1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D016C8BD30BA7E4D993B232 /* libPods-leverTsui-OpenGL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leverTsui-OpenGL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2343E9968354922303955BA4 /* Pods-leverTsui-OpenGL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leverTsui-OpenGL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leverTsui-OpenGL/Pods-leverTsui-OpenGL.debug.xcconfig"; sourceTree = "<group>"; };
 		C62317FE2146137600700306 /* leverTsui-OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "leverTsui-OpenGL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62318012146137600700306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C62318022146137600700306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +61,14 @@
 		C623183A2146154100700306 /* LTExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTExampleViewController.m; sourceTree = "<group>"; };
 		C623183C2146156700700306 /* LTExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTExample.h; sourceTree = "<group>"; };
 		C623183D2146156700700306 /* LTExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTExample.m; sourceTree = "<group>"; };
+		C62318412146214300700306 /* LTDrawImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTDrawImageViewController.h; sourceTree = "<group>"; };
+		C62318422146214300700306 /* LTDrawImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTDrawImageViewController.m; sourceTree = "<group>"; };
+		C62318452146544A00700306 /* UIViewController+LTExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LTExample.h"; sourceTree = "<group>"; };
+		C62318462146544A00700306 /* UIViewController+LTExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LTExample.m"; sourceTree = "<group>"; };
+		C62318492146560E00700306 /* LTDramImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTDramImageViewController.h; sourceTree = "<group>"; };
+		C623184A2146560E00700306 /* LTDramImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTDramImageViewController.m; sourceTree = "<group>"; };
+		C623184E21465CE600700306 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		D6E67DD381B2F4A134FB09C4 /* Pods-leverTsui-OpenGL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leverTsui-OpenGL.release.xcconfig"; path = "Pods/Target Support Files/Pods-leverTsui-OpenGL/Pods-leverTsui-OpenGL.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070238B163F38C61E0A96CE3 /* libPods-leverTsui-OpenGL.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CD7F76D3C786597313E5D50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D016C8BD30BA7E4D993B232 /* libPods-leverTsui-OpenGL.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C62317F52146137600700306 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +112,8 @@
 				C62318192146137800700306 /* leverTsui-OpenGLTests */,
 				C62318242146137800700306 /* leverTsui-OpenGLUITests */,
 				C62317FF2146137600700306 /* Products */,
+				F85E04A5C0F699888B8BB0D1 /* Pods */,
+				4CD7F76D3C786597313E5D50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +130,12 @@
 		C62318002146137600700306 /* leverTsui-OpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				C62318442146542B00700306 /* Category */,
 				C62318342146152500700306 /* Controller */,
 				C62318332146152500700306 /* Model */,
 				C62318372146152500700306 /* View */,
 				C62318012146137600700306 /* AppDelegate.h */,
+				C623184E21465CE600700306 /* 1.jpeg */,
 				C62318022146137600700306 /* AppDelegate.m */,
 				C62318072146137600700306 /* Main.storyboard */,
 				C623180A2146137800700306 /* Assets.xcassets */,
@@ -148,8 +176,11 @@
 		C62318342146152500700306 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C6231848214655E700700306 /* Draw */,
 				C62318392146154100700306 /* LTExampleViewController.h */,
 				C623183A2146154100700306 /* LTExampleViewController.m */,
+				C62318412146214300700306 /* LTDrawImageViewController.h */,
+				C62318422146214300700306 /* LTDrawImageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -161,6 +192,33 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		C62318442146542B00700306 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C62318452146544A00700306 /* UIViewController+LTExample.h */,
+				C62318462146544A00700306 /* UIViewController+LTExample.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C6231848214655E700700306 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				C62318492146560E00700306 /* LTDramImageViewController.h */,
+				C623184A2146560E00700306 /* LTDramImageViewController.m */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		F85E04A5C0F699888B8BB0D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2343E9968354922303955BA4 /* Pods-leverTsui-OpenGL.debug.xcconfig */,
+				D6E67DD381B2F4A134FB09C4 /* Pods-leverTsui-OpenGL.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C623182A2146137800700306 /* Build configuration list for PBXNativeTarget "leverTsui-OpenGL" */;
 			buildPhases = (
+				0AB7FC9F1EC93E2CF1BB2781 /* [CP] Check Pods Manifest.lock */,
 				C62317FA2146137600700306 /* Sources */,
 				C62317FB2146137600700306 /* Frameworks */,
 				C62317FC2146137600700306 /* Resources */,
@@ -267,6 +326,7 @@
 				C623180E2146137800700306 /* LaunchScreen.storyboard in Resources */,
 				C623180B2146137800700306 /* Assets.xcassets in Resources */,
 				C62318092146137600700306 /* Main.storyboard in Resources */,
+				C623184F21465CE600700306 /* 1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,13 +346,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AB7FC9F1EC93E2CF1BB2781 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-leverTsui-OpenGL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C62317FA2146137600700306 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C623184B2146560E00700306 /* LTDramImageViewController.m in Sources */,
 				C62318112146137800700306 /* main.m in Sources */,
 				C623183E2146156700700306 /* LTExample.m in Sources */,
+				C62318432146214300700306 /* LTDrawImageViewController.m in Sources */,
+				C62318472146544A00700306 /* UIViewController+LTExample.m in Sources */,
 				C62318032146137600700306 /* AppDelegate.m in Sources */,
 				C623183B2146154100700306 /* LTExampleViewController.m in Sources */,
 			);
@@ -461,6 +545,7 @@
 		};
 		C623182B2146137800700306 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2343E9968354922303955BA4 /* Pods-leverTsui-OpenGL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -477,6 +562,7 @@
 		};
 		C623182C2146137800700306 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E67DD381B2F4A134FB09C4 /* Pods-leverTsui-OpenGL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
