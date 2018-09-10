@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C62318032146137600700306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C62318022146137600700306 /* AppDelegate.m */; };
+		C62318092146137600700306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62318072146137600700306 /* Main.storyboard */; };
+		C623180B2146137800700306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C623180A2146137800700306 /* Assets.xcassets */; };
+		C623180E2146137800700306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C623180C2146137800700306 /* LaunchScreen.storyboard */; };
+		C62318112146137800700306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C62318102146137800700306 /* main.m */; };
+		C623181B2146137800700306 /* leverTsui_OpenGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C623181A2146137800700306 /* leverTsui_OpenGLTests.m */; };
+		C62318262146137800700306 /* leverTsui_OpenGLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C62318252146137800700306 /* leverTsui_OpenGLUITests.m */; };
+		C623183B2146154100700306 /* LTExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C623183A2146154100700306 /* LTExampleViewController.m */; };
+		C623183E2146156700700306 /* LTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C623183D2146156700700306 /* LTExample.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C62318172146137800700306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62317F62146137600700306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C62317FD2146137600700306;
+			remoteInfo = "leverTsui-OpenGL";
+		};
+		C62318222146137800700306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62317F62146137600700306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C62317FD2146137600700306;
+			remoteInfo = "leverTsui-OpenGL";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C62317FE2146137600700306 /* leverTsui-OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "leverTsui-OpenGL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62318012146137600700306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C62318022146137600700306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C62318082146137600700306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C623180A2146137800700306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C623180D2146137800700306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C623180F2146137800700306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62318102146137800700306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C62318162146137800700306 /* leverTsui-OpenGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "leverTsui-OpenGLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C623181A2146137800700306 /* leverTsui_OpenGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leverTsui_OpenGLTests.m; sourceTree = "<group>"; };
+		C623181C2146137800700306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62318212146137800700306 /* leverTsui-OpenGLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "leverTsui-OpenGLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62318252146137800700306 /* leverTsui_OpenGLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leverTsui_OpenGLUITests.m; sourceTree = "<group>"; };
+		C62318272146137800700306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62318392146154100700306 /* LTExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTExampleViewController.h; sourceTree = "<group>"; };
+		C623183A2146154100700306 /* LTExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTExampleViewController.m; sourceTree = "<group>"; };
+		C623183C2146156700700306 /* LTExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTExample.h; sourceTree = "<group>"; };
+		C623183D2146156700700306 /* LTExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTExample.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C62317FB2146137600700306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62318132146137800700306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C623181E2146137800700306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C62317F52146137600700306 = {
+			isa = PBXGroup;
+			children = (
+				C62318002146137600700306 /* leverTsui-OpenGL */,
+				C62318192146137800700306 /* leverTsui-OpenGLTests */,
+				C62318242146137800700306 /* leverTsui-OpenGLUITests */,
+				C62317FF2146137600700306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C62317FF2146137600700306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C62317FE2146137600700306 /* leverTsui-OpenGL.app */,
+				C62318162146137800700306 /* leverTsui-OpenGLTests.xctest */,
+				C62318212146137800700306 /* leverTsui-OpenGLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62318002146137600700306 /* leverTsui-OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				C62318342146152500700306 /* Controller */,
+				C62318332146152500700306 /* Model */,
+				C62318372146152500700306 /* View */,
+				C62318012146137600700306 /* AppDelegate.h */,
+				C62318022146137600700306 /* AppDelegate.m */,
+				C62318072146137600700306 /* Main.storyboard */,
+				C623180A2146137800700306 /* Assets.xcassets */,
+				C623180C2146137800700306 /* LaunchScreen.storyboard */,
+				C623180F2146137800700306 /* Info.plist */,
+				C62318102146137800700306 /* main.m */,
+			);
+			path = "leverTsui-OpenGL";
+			sourceTree = "<group>";
+		};
+		C62318192146137800700306 /* leverTsui-OpenGLTests */ = {
+			isa = PBXGroup;
+			children = (
+				C623181A2146137800700306 /* leverTsui_OpenGLTests.m */,
+				C623181C2146137800700306 /* Info.plist */,
+			);
+			path = "leverTsui-OpenGLTests";
+			sourceTree = "<group>";
+		};
+		C62318242146137800700306 /* leverTsui-OpenGLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C62318252146137800700306 /* leverTsui_OpenGLUITests.m */,
+				C62318272146137800700306 /* Info.plist */,
+			);
+			path = "leverTsui-OpenGLUITests";
+			sourceTree = "<group>";
+		};
+		C62318332146152500700306 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C623183C2146156700700306 /* LTExample.h */,
+				C623183D2146156700700306 /* LTExample.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C62318342146152500700306 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C62318392146154100700306 /* LTExampleViewController.h */,
+				C623183A2146154100700306 /* LTExampleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C62318372146152500700306 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C62317FD2146137600700306 /* leverTsui-OpenGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C623182A2146137800700306 /* Build configuration list for PBXNativeTarget "leverTsui-OpenGL" */;
+			buildPhases = (
+				C62317FA2146137600700306 /* Sources */,
+				C62317FB2146137600700306 /* Frameworks */,
+				C62317FC2146137600700306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leverTsui-OpenGL";
+			productName = "leverTsui-OpenGL";
+			productReference = C62317FE2146137600700306 /* leverTsui-OpenGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C62318152146137800700306 /* leverTsui-OpenGLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C623182D2146137800700306 /* Build configuration list for PBXNativeTarget "leverTsui-OpenGLTests" */;
+			buildPhases = (
+				C62318122146137800700306 /* Sources */,
+				C62318132146137800700306 /* Frameworks */,
+				C62318142146137800700306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C62318182146137800700306 /* PBXTargetDependency */,
+			);
+			name = "leverTsui-OpenGLTests";
+			productName = "leverTsui-OpenGLTests";
+			productReference = C62318162146137800700306 /* leverTsui-OpenGLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C62318202146137800700306 /* leverTsui-OpenGLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62318302146137800700306 /* Build configuration list for PBXNativeTarget "leverTsui-OpenGLUITests" */;
+			buildPhases = (
+				C623181D2146137800700306 /* Sources */,
+				C623181E2146137800700306 /* Frameworks */,
+				C623181F2146137800700306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C62318232146137800700306 /* PBXTargetDependency */,
+			);
+			name = "leverTsui-OpenGLUITests";
+			productName = "leverTsui-OpenGLUITests";
+			productReference = C62318212146137800700306 /* leverTsui-OpenGLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C62317F62146137600700306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = huage;
+				TargetAttributes = {
+					C62317FD2146137600700306 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C62318152146137800700306 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C62317FD2146137600700306;
+					};
+					C62318202146137800700306 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C62317FD2146137600700306;
+					};
+				};
+			};
+			buildConfigurationList = C62317F92146137600700306 /* Build configuration list for PBXProject "leverTsui-OpenGL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C62317F52146137600700306;
+			productRefGroup = C62317FF2146137600700306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C62317FD2146137600700306 /* leverTsui-OpenGL */,
+				C62318152146137800700306 /* leverTsui-OpenGLTests */,
+				C62318202146137800700306 /* leverTsui-OpenGLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C62317FC2146137600700306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C623180E2146137800700306 /* LaunchScreen.storyboard in Resources */,
+				C623180B2146137800700306 /* Assets.xcassets in Resources */,
+				C62318092146137600700306 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62318142146137800700306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C623181F2146137800700306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C62317FA2146137600700306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62318112146137800700306 /* main.m in Sources */,
+				C623183E2146156700700306 /* LTExample.m in Sources */,
+				C62318032146137600700306 /* AppDelegate.m in Sources */,
+				C623183B2146154100700306 /* LTExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62318122146137800700306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C623181B2146137800700306 /* leverTsui_OpenGLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C623181D2146137800700306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62318262146137800700306 /* leverTsui_OpenGLUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C62318182146137800700306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C62317FD2146137600700306 /* leverTsui-OpenGL */;
+			targetProxy = C62318172146137800700306 /* PBXContainerItemProxy */;
+		};
+		C62318232146137800700306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C62317FD2146137600700306 /* leverTsui-OpenGL */;
+			targetProxy = C62318222146137800700306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C62318072146137600700306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62318082146137600700306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C623180C2146137800700306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C623180D2146137800700306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C62318282146137800700306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C62318292146137800700306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C623182B2146137800700306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "leverTsui-OpenGL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huage.company.leverTsui-OpenGL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C623182C2146137800700306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "leverTsui-OpenGL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huage.company.leverTsui-OpenGL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C623182E2146137800700306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "leverTsui-OpenGLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huage.company.leverTsui-OpenGLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leverTsui-OpenGL.app/leverTsui-OpenGL";
+			};
+			name = Debug;
+		};
+		C623182F2146137800700306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "leverTsui-OpenGLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huage.company.leverTsui-OpenGLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leverTsui-OpenGL.app/leverTsui-OpenGL";
+			};
+			name = Release;
+		};
+		C62318312146137800700306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "leverTsui-OpenGLUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huage.company.leverTsui-OpenGLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "leverTsui-OpenGL";
+			};
+			name = Debug;
+		};
+		C62318322146137800700306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "leverTsui-OpenGLUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huage.company.leverTsui-OpenGLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "leverTsui-OpenGL";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C62317F92146137600700306 /* Build configuration list for PBXProject "leverTsui-OpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62318282146137800700306 /* Debug */,
+				C62318292146137800700306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C623182A2146137800700306 /* Build configuration list for PBXNativeTarget "leverTsui-OpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C623182B2146137800700306 /* Debug */,
+				C623182C2146137800700306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C623182D2146137800700306 /* Build configuration list for PBXNativeTarget "leverTsui-OpenGLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C623182E2146137800700306 /* Debug */,
+				C623182F2146137800700306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62318302146137800700306 /* Build configuration list for PBXNativeTarget "leverTsui-OpenGLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62318312146137800700306 /* Debug */,
+				C62318322146137800700306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C62317F62146137600700306 /* Project object */;
+}
